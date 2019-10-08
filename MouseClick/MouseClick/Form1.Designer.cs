@@ -35,6 +35,7 @@
             this.buttonRD = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonL
@@ -91,11 +92,21 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "点击按钮，1.2秒后模拟鼠标点击";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(27, 157);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(155, 12);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "对应传参调用 l、r、ll、rr";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(264, 162);
+            this.ClientSize = new System.Drawing.Size(264, 178);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonRD);
             this.Controls.Add(this.buttonLD);
@@ -116,6 +127,7 @@
         private System.Windows.Forms.Button buttonRD;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
