@@ -89,7 +89,7 @@ namespace MouseClick
         /// <summary>
         /// 鼠标右键点击
         /// </summary>
-        private void RightCick()
+        public static void RightCick()
         {
             mouse_event(MOUSEEVENTF_RIGHTDOWN | MOUSEEVENTF_RIGHTUP, 0, 0, 0, 0);
         }
@@ -97,7 +97,7 @@ namespace MouseClick
         /// <summary>
         /// 鼠标左键点击
         /// </summary>
-        private void LeftCick()
+        public static void LeftCick()
         {
             mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
         }
